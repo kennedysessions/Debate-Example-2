@@ -1,0 +1,56 @@
+
+/*sets the rules for everything on the page */
+
+*{
+ font-family: Georgia, serif;
+}
+*
+body{
+background-color: whitesmoke;
+}
+
+/* turns figcaption gray */
+
+figcaption{
+	color: gray;
+}
+/*make the headline uppercase with code*/
+h1{
+	text-transform: uppercase;
+	 font-family: "Jacquarda Bastarda 9", serif;
+}
+h1,h6{
+text-align:center;
+}
+/*sets maximum space for image and caption*/
+figure{
+	max-width: 600px;
+	margin: auto;
+}
+div.text{
+	margin: auto;
+	max-width: 800px;
+	background-color: whitesmoke;
+	padding: 10px;
+	margin-top: 20px;
+}
+/*allows image to take up full space of above*/
+img{
+	max-width:100%;
+}
+h6{
+	color: gray;
+
+}
+}
+/*changes the text color*/
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+
+footer{
+	color:gray;
+}
